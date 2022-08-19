@@ -19,7 +19,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
 }
 .input-groug label{
     margin-bottom: 10px;
@@ -59,7 +60,10 @@
     padding-top: 20px;
     
 }
-.error-masage{
+.error-message{
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     font-size: 14px;
     color: rgb(139, 1, 1);
