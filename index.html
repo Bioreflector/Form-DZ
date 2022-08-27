@@ -4,35 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <form action="" id="formReg" >
+    <div class="wrapper-form">
+
+        <form action="" id="formReg"  name="formReg">
             <div class="input-groug">
                 <label for="userName">User Name</label>
-                <input type="text" id="userName" name="userName" placeholder="Ender your Name">
-                <span class="erro-masage"></span>
+                <input type="text" id="userName" name="userName" placeholder="Enter your Name">
+                <span class="error-message"></span>
             </div>
             <div class="input-groug">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Ender your Email">
-                <span class="erro-masage"></span>
+                <input type="text" id="email" name="email" placeholder="Enter your Email">
+                <span class="error-message"></span>
             </div>
             <div class="input-groug">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Ender your password">
-                <span class="erro-masage"></span>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <span class="error-message"></span>
             </div>
             <div class="input-groug">
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm tour password">
-                <span class="erro-masage"></span>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+                <span class="error-message"></span>
             </div>
-            <button>Submit</button>
+            <div class="form-btn-box">
+                <button class="form-btn">Submit</button>
+            </div>
+          
         </form>
+
+        <!-- <form action="" name="form">
+            <div><input type="text" name="username" id="username"></div>
+            <div><input type="text" name="email" id="email"></div>
+            <div><input type="text" name="password" id="password"></div>
+
+            
+        </form> -->
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
